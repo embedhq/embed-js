@@ -1,0 +1,16 @@
+{
+  "name": "@embedco/js",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf tsconfig.tsbuildinfo dist/*",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.5"
+  }
+}
