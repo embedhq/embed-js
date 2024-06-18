@@ -2,6 +2,8 @@
 
 This SDK makes it easy to connect end-user accounts to integrations like Dropbox, Slack, HubSpot, and more. For a detailed overview of the auth flow, refer to [the docs](https://docs.useembed.com/). If you're using React (or a React-based framework like Next.js), consider using the [React SDK](https://github.com/embedhq/embed-react) instead.
 
+[![npm latest package](https://img.shields.io/npm/v/@embedhq/js/latest.svg)](https://www.npmjs.com/package/@joshdschneider/formation)
+
 [**Visit the Embed website ▸**](https://useembed.com/)
 
 [**Read the documentation ▸**](https://docs.useembed.com/)
