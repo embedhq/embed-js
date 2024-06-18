@@ -1,10 +1,10 @@
 # Embed Connect JavaScript SDK
 
-The Embed Connect SDK makes it easy to connect end-user accounts to integrations like Dropbox, Slack, HubSpot, and more. For a detailed overview of the auth flow, refer to the [documentation](https://docs.useembed.com/). If you're using React (or a React-based framework like Next.js), consider using the [Embed Connect React SDK](https://github.com/embedhq/embed-react) instead.
+The Embed Connect SDK makes it easy to connect end-user accounts to integrations like Dropbox, Slack, HubSpot, and more. For a detailed overview of the auth flow, refer to [the docs](https://docs.useembed.com/). If you're using React (or a React-based framework like Next.js), consider using the [React SDK](https://github.com/embedhq/embed-react) instead.
 
-[Embed Website](https://useembed.com/)
-[Embed Documentation](https://docs.useembed.com/)
-[Embed API Reference](https://docs.useembed.com/api-reference)
+[Embed Website →](https://useembed.com/)<br />
+[Embed Documentation →](https://docs.useembed.com/)<br />
+[Embed API Reference →](https://docs.useembed.com/api-reference)
 
 ## Code example
 
@@ -15,7 +15,8 @@ import { Embed } from "@embedhq/js";
 
 const embed = new Embed();
 
-connect("SESSION_TOKEN")
+embed
+  .connect("SESSION_TOKEN")
   .then((res) => console.log(res.connectionId))
   .catch((err) => console.error(err));
 ```
